@@ -1,0 +1,25 @@
+# 28 Nov 2025 Meeting
+- add data quality checking
+    - anomalous data check (3sd)
+    - data type check
+    - missing dates
+    - industry standard data cleaning
+- resampling: daily opne/close isn't completely correct
+    - experiment with average of first/last window
+    - research why not just use the first one
+- returns n log returns
+    - check why some of numbers are the same
+- sanity checks
+    - why daily GLD has 700 data points instead of 500
+    - take care of zeros
+- clustering
+    - find out what makes clusters different
+    - find out what makes outlier an outlier
+    - precursor to high volatility
+- read up more on ARCH, GARCH
+    - which order
+    - AL1, AL2
+- normality test
+- correlate the clusters
+- cluster correlations
+
